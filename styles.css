@@ -1,0 +1,58 @@
+html, body {
+    width: 100%;
+    text-align: center;
+    background-color: floralwhite;
+}
+
+table {
+    margin: 0 auto;
+    width: 50%;
+    border: 3px solid orchid;
+    border-collapse: collapse;
+}
+
+h2 {
+    color: rgb(70, 56, 70);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.col {
+    background-color: orchid;
+    text-align: left;
+    font-family: Helvetica;
+}
+
+th, td {
+    text-align: left;
+    padding: 15px;
+}
+
+tr:nth-child(even) {
+    background-color: mistyrose;
+}
+
+
+a, li {
+    color: rgb(70, 56, 70);
+    font-weight: bold;
+    display: inline-block;
+}
+/*body, table {
+    margin: auto;
+    text-align: center;
+}
+
+.tags, .attributes {
+    width: auto;
+    height: auto;
+    line-height: auto;
+    border: 3px solid orchid;
+    margin: auto;
+    text-align: center;
+}
+
+tr {
+    margin: 0 auto;
+    padding: 0;
+}*/
+
